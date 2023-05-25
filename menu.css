@@ -19,7 +19,7 @@ body{
 }
 
 .popover {
-   display: none;
+   display: contents;
    box-shadow: 0px 6px 8px rgba(19, 19, 19, .7);
 }
 
@@ -35,27 +35,16 @@ body{
 }
 
 .popover .content {
-  display: flex;
+  display:block;
   align-items: center;
   justify-content: center;
-  position: relative;
+  position: absolute;
   width: 0;
   height: 0;
   color: #fff;
   background-color: #191919;
   animation: 1s grow ease forwards;
   text-align: center;
-}
-
-.nav_list li::before {
-  content: '';
-  position: absolute;
-  height: 2px;
-  width: 0px;
-  left: 0;
-  bottom: 10px;
-  background: #BF2E97; 
-  transition: all .5s ease;
 }
 
 .popover p {
