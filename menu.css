@@ -14,7 +14,7 @@
 
 body{
     background-color: #34495e;
-    background-image: url('background.jpeg');
+    background-image: url('pink.png');
     background-size: cover;
 }
 
@@ -35,6 +35,9 @@ body{
 }
 
 .popover .content {
+  height: 80%;
+  width: 80%;
+  transition-delay: 1s;
   display:block;
   align-items: center;
   justify-content: center;
@@ -42,7 +45,28 @@ body{
   width: 0;
   height: 0;
   color: #fff;
-  background-color: #191919;
+  background:transparent;
+  border: solid;
+  border-color: #34495e;
+  animation: 1s grow ease forwards;
+  text-align: center;
+}
+
+.popover .content2 {
+  height: 80%;
+  width: 80%;
+  transition-delay: 1s;
+  display:block;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 0;
+  height: 0;
+  color: #fff;
+  background:palevioletred;
+  opacity: 0.5;
+  border: solid;
+  border:transparent;
   animation: 1s grow ease forwards;
   text-align: center;
 }
@@ -53,11 +77,20 @@ body{
   animation: 1s fadeIn ease forwards 1s;
 }
 
+h2 {
+  position: relative;
+  top: 50%;
+  opacity: 100%;
+  font-family: sans-serif;
+  font-size: 1vw;
+  animation: hold-0 1s;
+
+}
 
 @keyframes grow {
   100% {
-    height: 90%;
-    width: 90%;
+    height: 80%;
+    width: 80%;
  }
 }
 
@@ -73,3 +106,9 @@ body{
     opacity: 1;
   }
 }
+
+@keyframes hold-0{
+  0%{opacity: 0;}
+  50%{opacity: 0;}
+  100%{opacity: 1;}
+} 
