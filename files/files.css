@@ -1,32 +1,3 @@
-@media only screen and (min-width: 200px) {
-  h2 {
-    font-size: 11px;
-  }
-}
-
-@media only screen and (min-width: 294px) {
-  h2 {
-    font-size: 13px;
-  }
-}
-
-@media only screen and (min-width: 391px) {
-  h2 {
-    font-size: 15px;
-  }
-}
-
-@media only screen and (min-width: 496px) {
-  h2 {
-    font-size: 17px;
-  }
-}
-
-@media only screen and (min-width: 612px) {
-  h2 {
-    font-size: 19px;
-  }
-}
 
 * {
   margin: 0;
@@ -44,7 +15,7 @@
 
 body{
   background-color: #34495e;
-  background-image: url('orange.png');
+  background-image: url('trees.png');
   background-size: cover;
 }
 
@@ -93,7 +64,7 @@ justify-content: center;
   width: 0;
   height: 0;
   color: #fff;
-  background: orangered;
+  background: #34495e;
   opacity: 0.5;
   animation: 1s grow ease forwards;
   text-align: center;
@@ -105,11 +76,11 @@ justify-content: center;
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 50%;
+  top: 0%;
   width: 100%;
-  height: 50%;
+  height: 100%;
   color: #fff;
-  background: orangered;
+  background: #34495e;
   opacity: 0.25;
   text-align: center;
   animation: img-out 1s;
@@ -121,7 +92,66 @@ justify-content: center;
   opacity: 1;
 }
 
+.text1{
+  color: black;
+  text-decoration: dotted;
+  position: absolute;
+  justify-content: start;
+  font-size: small;
+  top: 45%;
+  left: 0%;
+  opacity: 100%;
+  animation: img-in 2s; 
+  text-align: start;
+}
 
+.text2{
+  color: black;
+  text-decoration: dotted;
+  position:absolute;
+  justify-content: start;
+  font-size: small;
+  top: 45%;
+  left: 20%;
+  opacity: 100%;
+  animation: img-in 2s;
+}
+
+.text3{
+  color: black;
+  text-decoration: dotted;
+  position: absolute;
+  justify-content: start;
+  font-size: small;
+  top: 45%;
+  left: 40%;
+  opacity: 100%;
+  animation: img-in 2s;
+}
+
+.text4{
+  color: black;
+  text-decoration: dotted;
+  position: absolute;
+  justify-content: start;
+  font-size: small;
+  top: 45%;
+  left: 60%;
+  opacity: 100%;
+  animation: img-in 2s;
+}
+
+.text5{
+  color: black;
+  text-decoration: dotted;
+  position: absolute;
+  justify-content: start;
+  font-size: small;
+  top: 45%;
+  left: 80%;
+  opacity: 100%;
+  animation: img-in 2s;
+}
 
 h2 {
   color: black;
@@ -133,21 +163,63 @@ h2 {
   animation: hold-0 1s;
 }
 
-h3{
-  position: relative;
-  justify-content: center;
-  top: 20%;
+h1{
+  color: black;
+  text-decoration: dotted;
+  position: absolute;
+  justify-content: start;
+  font-size: small;
+  top: 40%;
   left: 0%;
+  opacity: 100%;
+  animation: img-in 2s; 
+  text-align: start;
+}
+
+h3{
+  color: black;
+  text-decoration: dotted;
+  position:absolute;
+  justify-content: start;
+  font-size: small;
+  top: 40%;
+  left: 20%;
   opacity: 100%;
   animation: img-in 2s;
 }
 
 h4{
-  text-decoration-line: underline;
-  position: relative;
-  justify-content: center;
-  top: 20%;
-  left: 0%;
+  color: black;
+  text-decoration: dotted;
+  position: absolute;
+  justify-content: start;
+  font-size: small;
+  top: 40%;
+  left: 40%;
+  opacity: 100%;
+  animation: img-in 2s;
+}
+
+h5{
+  color: black;
+  text-decoration: dotted;
+  position: absolute;
+  justify-content: start;
+  font-size: small;
+  top: 40%;
+  left: 60%;
+  opacity: 100%;
+  animation: img-in 2s;
+}
+
+h6{
+  color: black;
+  text-decoration: dotted;
+  position: absolute;
+  justify-content: start;
+  font-size: small;
+  top: 40%;
+  left: 80%;
   opacity: 100%;
   animation: img-in 2s;
 }

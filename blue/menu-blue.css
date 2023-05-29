@@ -1,30 +1,30 @@
 @media only screen and (min-width: 200px) {
   h2 {
-    font-size: 12px;
+    font-size: 11px;
   }
 }
 
 @media only screen and (min-width: 294px) {
   h2 {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 
 @media only screen and (min-width: 391px) {
   h2 {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 
 @media only screen and (min-width: 496px) {
   h2 {
-    font-size: 18px;
+    font-size: 17px;
   }
 }
 
 @media only screen and (min-width: 612px) {
   h2 {
-    font-size: 20px;
+    font-size: 19px;
   }
 }
 
@@ -44,7 +44,7 @@
 
 body{
   background-color: #34495e;
-  background-image: url('backgrounds/pink.png');
+  background-image: url('blue.png');
   background-size: cover;
 }
 
@@ -93,7 +93,7 @@ justify-content: center;
   width: 0;
   height: 0;
   color: #fff;
-  background: pink;
+  background: blue;
   opacity: 0.5;
   animation: 1s grow ease forwards;
   text-align: center;
@@ -109,7 +109,7 @@ justify-content: center;
   width: 100%;
   height: 50%;
   color: #fff;
-  background: pink;
+  background: blue;
   opacity: 0.25;
   text-align: center;
   animation: img-out 1s;
@@ -129,17 +129,37 @@ h2 {
   top: 20%;
   opacity: 100%;
   font-family: sans-serif;
+  text-shadow: 2px 2px 4px black;
   animation: hold-0 1s;
 }
 
-h3 {
-  size: 400%;
+h3{
+  animation: hold-0 2s;
   position: relative;
-  top: 10%;
+  justify-content: center;
+  top: 20%;
+  left: 0%;
   opacity: 100%;
-  font-family: sans-serif;
-  font-size: medium;
-  animation: hold-0 1s;
+  animation: img-in 2s;
+}
+
+h4{
+  animation: hold-0 2s;
+  text-decoration-line: underline;
+  position: relative;
+  justify-content: center;
+  top: 20%;
+  left: 0%;
+  opacity: 100%;
+  animation: img-in 2s;
+}
+
+h5{
+  animation: hold-0 4s;
+  position: relative;
+  top: 30%;
+  left: 0%;
+  opacity: 100%;
 }
 
 .popover p {
@@ -182,4 +202,9 @@ opacity: 1;
 @keyframes img-out{
   0%{opacity: 1;}
   100%{opacity: 0.25;}
+}
+
+@keyframes abusing{
+  0%{opacity: 60%;}
+  100%{opacity: 100%;}
 }

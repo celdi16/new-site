@@ -14,7 +14,7 @@ html {
 	cursor: pointer;
 	&::after {
 	  content: "";
-	  background: url('cassettes/blue-cassette.png') no-repeat 50%/50% transparent;
+	  background: url('cassettes/cassette.png') no-repeat 50%/50% transparent;
 	  border-radius: 0px;
 	  width: 130px;
 	  height: 25px;
@@ -40,26 +40,9 @@ html {
 	  .button {
 		opacity: 1;
 		pointer-events: auto;
-		&:first-of-type {
-		  bottom: 0px;
-		  right: 125px;
-		  background: url("") no-repeat 100%/100% transparent; 
-		}
-		&:nth-of-type(2) {
-			bottom: -75px;
-			right: 68px;
-			background: url("") no-repeat 100%/100% transparent;
-			transition-delay: .1s;
-		  }
-		  &:nth-of-type(3) {
-			bottom: -75px;
-			right: -70px;
-			background: url("") no-repeat 100%/100% transparent;
-			transition-delay: .1s;
-		  }
 		&:last-of-type {
-		  bottom: 0px;
-		  right: -120px;
+		  bottom: -100px;
+		  right: 0px;
 		  background: url("") no-repeat 100%/100% transparent;
 		  transition-delay: .1s;
 		}

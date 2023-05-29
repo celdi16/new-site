@@ -129,10 +129,21 @@ h2 {
   top: 20%;
   opacity: 100%;
   font-family: sans-serif;
+  text-shadow: 2px 2px 4px black;
   animation: hold-0 1s;
 }
 
 h3{
+  position: relative;
+  justify-content: center;
+  top: 20%;
+  left: 0%;
+  opacity: 100%;
+  animation: img-in 2s;
+}
+
+h4{
+  text-decoration-line: underline;
   position: relative;
   justify-content: center;
   top: 20%;

@@ -14,10 +14,10 @@ html {
 	cursor: pointer;
 	&::after {
 	  content: "";
-	  background: url('cassettes/pink-cassette.png') no-repeat 50%/50% transparent;
+	  background: url('cassettes/orange-cassette.png') no-repeat 50%/50% transparent;
 	  border-radius: 0px;
-	  width: 120px;
-	  height: 20px;
+	  width: 130px;
+	  height: 25px;
 	  display: inline-flex;
 	  position: absolute;
 	  left: -58px;
@@ -43,24 +43,24 @@ html {
 		&:first-of-type {
 		  bottom: 0px;
 		  right: 125px;
-		  background: url("cassettes/blue-cassette.png") no-repeat 100%/100% transparent;
+		  background: url("") no-repeat 100%/100% transparent; 
 		}
 		&:nth-of-type(2) {
 			bottom: -75px;
 			right: 68px;
-			background: url("cassettes/green-cassette.png") no-repeat 100%/100% transparent;
+			background: url("") no-repeat 100%/100% transparent;
 			transition-delay: .1s;
 		  }
 		  &:nth-of-type(3) {
 			bottom: -75px;
-			right: -16px;
-			background: url("cassettes/orange-cassette.png") no-repeat 100%/100% transparent;
+			right: -70px;
+			background: url("") no-repeat 100%/100% transparent;
 			transition-delay: .1s;
 		  }
 		&:last-of-type {
 		  bottom: 0px;
-		  right: -75px;
-		  background: url("cassettes/red-cassette.png") no-repeat 100%/100% transparent;
+		  right: -120px;
+		  background: url("") no-repeat 100%/100% transparent;
 		  transition-delay: .1s;
 		}
 	  }
