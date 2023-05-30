@@ -153,17 +153,20 @@ justify-content: center;
   animation: img-in 2s;
 }
 
-h2 {
+h1{
   color: black;
-  position: relative;
-  top: 20%;
+  text-decoration: dotted;
+  position: absolute;
+  justify-content: start;
+  font-size: small;
+  top: 40%;
+  left: 0%;
   opacity: 100%;
-  font-family: sans-serif;
-  text-shadow: 2px 2px 4px black;
-  animation: hold-0 1s;
+  animation: img-in 2s; 
+  text-align: start;
 }
 
-h1{
+h2{
   color: black;
   text-decoration: dotted;
   position: absolute;
