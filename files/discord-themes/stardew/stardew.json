@@ -9,7 +9,7 @@
 	],
 "semanticColors": {
 		"HEADER_PRIMARY": [
-			"#320A28"
+			"#E0D68A"
 		],
 "HEADER_SECONDARY": [
 			"#000000"
@@ -24,70 +24,70 @@
 			"#ff0000"
 		],
 "TEXT_LINK": [
-			"#320A28"
+			"#E0D68A"
 		],
 "INTERACTIVE_NORMAL": [
 			"#000000"
 		],
 "INTERACTIVE_HOVER": [
-			"#320A28"
+			"#E0D68A"
 		],
 "INTERACTIVE_MUTED": [
-			"#320A28"
+			"#E0D68A"
 		],
 "INTERACTIVE_ACTIVE": [
-			"#320A28"
+			"#CB9173"
 		],
 "BACKGROUND_PRIMARY": [
-			"#CB9173"
+			"#8E443D"
 		],
 "BACKGROUND_SECONDARY": [
-			"#511730"
+			"#320A28"
 		],
 "BACKGROUND_SECONDARY_ALT": [
-			"#511730"
+			"#320A28"
 		],
 "BACKGROUND_TERTIARY": [
-			"#CB9173"
+			"#8E443D"
 		],
 "BACKGROUND_ACCENT": [
-			"#CB9173"
+			"#8E443D"
 		],
 "BACKGROUND_FLOATING": [
-			"#511730"
+			"#320A28"
 		],
 "BACKGROUND_MOBILE_PRIMARY": [
-			"#CB9173"
+			"#8E443D"
 		],
 "BACKGROUND_MOBILE_SECONDARY": [
-			"#511730"
+			"#320A28"
 		],
 "BACKGROUND_NESTED_FLOATING": [
-			"#CB9173"
+			"#8E443D"
 		],
 "BACKGROUND_MESSAGE_HOVER": [
-			"#CB9173"
+			"#8E443D"
 		],
 "BACKGROUND_MODIFIER_ACCENT": [
-			"#CB9173"
+			"#8E443D"
 		],
 "SCROLLBAR_THIN_THUMB": [
-			"#CB9173"
+			"#8E443D"
 		],
 "SCROLLBAR_THIN_TRACK": [
 			"transparent"
 		],
 "SCROLLBAR_AUTO_THUMB": [
-			"#511730"
+			"#320A28"
 		],
 "SCROLLBAR_AUTO_TRACK": [
-			"#CB9173"
+			"#8E443D"
 		],
 "KEYBOARD": [
-			"#CB9173"
+			"#8E443D"
 		],
 "CHANNELTEXTAREA_BACKGROUND": [
-			"#320A28"
+			"#E0D68A"
 		],
 "CHANNEL_ICON": [
 			"#000000"
@@ -96,39 +96,39 @@
 			"#000000"
 		],
 "CHAT_BACKGROUND": [
-			"#CB9173"
+			"#8E443D"
 		]
 	},
 	"rawColors":{
-		"PRIMARY": "#8E443D",
-		"PRIMARY_100": "#320A28",
+		"PRIMARY": "#511730",
+		"PRIMARY_100": "#E0D68A",
 		"PRIMARY_200": "#000000",
-		"PRIMARY_300": "#511730",
+		"PRIMARY_300": "#320A28",
 		"PRIMARY_360": "#000000",
-		"PRIMARY_400": "#511730",
-		"PRIMARY_500": "#8E443D",
-		"PRIMARY_630": "#8E443D",
-		"PRIMARY_660": "#8E443D",
-		"PRIMARY_700": "#8E443D",
-		"PRIMARY_800": "#8E443D",
-		"PRIMARY_900": "#8E443D",
-		"YELLOW_300": "#8E443D",
-		"BRAND_260": "#511730",
-		"BRAND_360": "#511730",
-		"BRAND_500": "#511730",
-		"GREEN_360": "#511730",
-		"RED_400": "#E0D68A",
-		"ORANGE_345": "#511730",
-		"RED_560": "#511730",
-		"GREEN_345": "#511730",
-		"BLUE_345": "#511730",
-		"WHITE_500": "#511730",
-		"PRIMARY_600": "#511730",
-		"BRAND_560": "#320A28"
+		"PRIMARY_400": "#320A28",
+		"PRIMARY_500": "#511730",
+		"PRIMARY_630": "#511730",
+		"PRIMARY_660": "#511730",
+		"PRIMARY_700": "#511730",
+		"PRIMARY_800": "#511730",
+		"PRIMARY_900": "#511730",
+		"YELLOW_300": "#511730",
+		"BRAND_260": "#320A28",
+		"BRAND_360": "#320A28",
+		"BRAND_500": "#320A28",
+		"GREEN_360": "#320A28",
+		"RED_400": "#CB9173",
+		"ORANGE_345": "#320A28",
+		"RED_560": "#320A28",
+		"GREEN_345": "#320A28",
+		"BLUE_345": "#320A28",
+		"WHITE_500": "#320A28",
+		"PRIMARY_600": "#320A28",
+		"BRAND_560": "#E0D68A"
 	},
 	"background": {
 		"blur": 0,
-		"url": "https://celdi16.github.io/new-site/files/discord-themes/stardew/1.jpeg",
+		"url": "https://celdi16.github.io/new-site/discord-themes/stardew/1.jpeg",
 		"alpha": 0.48
 	},
 		"spec": 2
